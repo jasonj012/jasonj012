@@ -12,6 +12,13 @@ public class Controller {
         app.get("/", ctx ->
             ctx.result("Hello Server!")
         );
+
+        app.get("/example/", ctx ->
+                ctx.result("This is an example of what can be written")
+        );
+        {
+            System.out.println("Something should be printed here");
+        }
     }
 
 
