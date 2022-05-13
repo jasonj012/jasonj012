@@ -13,9 +13,17 @@
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
     <!-- https://mvnrepository.com/artifact/io.javalin/javalin -->
-    <dependencies><dependency>
+    <dependencies>
+        <dependency>
         <groupId>io.javalin</groupId>
         <artifactId>javalin</artifactId>
         <version>4.6.0</version>
-    </dependency></dependencies>
+    </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.8.0-beta4</version>
+        </dependency>
+    </dependencies>
+
 </project>
